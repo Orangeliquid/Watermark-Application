@@ -8,7 +8,7 @@ class WatermarkApp:
     def __init__(self, main_window, watermark_utility):
         # Main window and Image area config
         self.root = main_window
-        self.root.title("Water Marking With Michael")
+        self.root.title("Watermarking With Michael")
         self.root.config(padx=20, pady=20, bg="#FFDEAD")
         self.alien_logo_img = ImageTk.PhotoImage(Image.open("orange_alien2.png"))
         self.image_area = tk.Label(width=130, height=40)
